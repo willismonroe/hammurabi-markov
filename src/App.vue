@@ -9,7 +9,7 @@
     Small markov chain model made by
     <a href="https://twitter.com/willismonroe">@willismonroe</a>, header image
     by <a href="https://twitter.com/hayleybmonroe">@hayleybmonroe</a>. You can
-    find the code <a href="https://github.com/willismonroe/hammurai-markov">here</a>, thanks to the CDLI for the
+    find the code <a href="https://github.com/willismonroe/hammurabi-markov">here</a>, thanks to the CDLI for the
     <a href="http://cdli.ucla.edu/P464358">raw text</a> of Hammurabi's laws.
     <br />
     <br />
