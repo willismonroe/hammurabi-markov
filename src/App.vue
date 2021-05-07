@@ -6,16 +6,27 @@
   />
   <br />
   <p class="header">
-    Small markov chain model made by
-    <a href="https://twitter.com/willismonroe">@willismonroe</a>, header image
-    by <a href="https://twitter.com/hayleybmonroe">@hayleybmonroe</a>. You can
-    find the code <a href="https://github.com/willismonroe/hammurabi-markov">here</a>, thanks to the CDLI for the
-    <a href="http://cdli.ucla.edu/P464358">raw text</a> of Hammurabi's laws.
+    Small Markov chain model of the
+    <a href="https://en.wikipedia.org/wiki/Code_of_Hammurabi"
+      >Code of Hammurabi</a
+    >
+    made by <a href="https://twitter.com/willismonroe">@willismonroe</a>, header
+    image by <a href="https://twitter.com/hayleybmonroe">@hayleybmonroe</a>. You
+    can find the code
+    <a href="https://github.com/willismonroe/hammurabi-markov">here</a>, thanks
+    to the CDLI for the <a href="http://cdli.ucla.edu/P464358">raw text</a> of
+    Hammurabi's laws.
     <br />
     <br />
     The button below will create laws "in-the-spirit" of Hammurabi's law-code.
-    There's no guaruntee that they'll make sense, or even be complete, but
+    There's no guarantee that they'll make sense, or even be complete, but
     sometimes the results are interesting.
+    <br />
+    <br />
+    If you're looking for a highly readable and accurate translation of the
+    original text (along with excellent context and translations other Mesopotamian law
+    codes) I highly recommend Martha Roth's
+    <i>Law Collections from Mesopotamia and Asia Minor</i>.
   </p>
   <br />
   <button @click="handleClick">Generate New Laws</button>
@@ -95,7 +106,8 @@ export default {
 
 .header {
   margin: 0 auto;
-  width: 35%;
+  text-align: left;
+  width: 40%;
   color: rgb(100, 100, 100);
 }
 
@@ -115,5 +127,9 @@ button {
   margin-top: 1em;
   font-family: "Lora", serif;
   font-size: 1.5em;
+}
+
+i {
+  font-style: italic;
 }
 </style>
